@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Friend Finder</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Staatliches" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<style>
+h4{
+    margin-top: 2%; 
+    font-size: 22px;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.jumbotron{
+    background-color: rgb(157, 236, 236);
+}
+
+.display-4{
+    color: rgb(255, 255, 255);
+    font-family: 'Staatliches', cursive;
+}
+
+a{
+    color: rgb(157, 236, 236);
+}
+
+a:hover{
+    color: rgb(115, 172, 172);
+    text-decoration: none;
+}
+
+.text-footer{
+    color: rgb(157, 236, 236);
+    text-align: right;
+}
+
+.btn{
+    background-color: rgb(157, 236, 236);
+    border-color:  rgb(157, 236, 236);
+}
+
+.btn:hover{
+    background-color: rgb(115, 172, 172);
+    border-color: rgb(115, 172, 172);
+}
+
+.lead{
+    color: rgb(255, 255, 255);
+}
+
+.homeBut{
+    background-color: rgb(255, 255, 255);
+    color:  rgb(157, 236, 236);
+}
+
+.surveyCont{
+    margin-top: 2%;
+
+}
+
+.homeCont{
+    margin-top: 2%;
+}
+
+.footerCont{
+    margin-top: 2%;
+}
+
+.title{
+    font-family: 'Staatliches', cursive;
+}
+</style>
+
+<body>
+    
+    <div class="container homeCont">
+        <div class="shadow jumbotron text-center">
+            <h1 class="display-4 title">Friend Finder</h1>
+            <hr class="my-4">
+            <p class="lead">Answer questions to find your match!</p>
+            <a  class="shadow-sm btn btn-primary btn-lg homeBut" href="/survey" role="button">Find Yours</a>
+        </div>
+
+        <footer class="footer">
+            <p class="text-footer">
+                <a href="/api/friends">API Friends List</a> |
+                <a href="https://github.com/Verenatanzil/Friend-Finder">GitHub Repo</a>
+            </p>
+        </footer>
+    </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>   
+</body>
+</html>
